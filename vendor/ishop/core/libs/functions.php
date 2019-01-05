@@ -5,6 +5,6 @@
  * Date: 04.01.2019
  * Time: 17:57
  */
-function debug(array $arr) {
+function debug($arr) {
     echo "<pre>" . print_r($arr, true) ."</pre>";
 }
