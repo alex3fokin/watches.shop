@@ -312,3 +312,21 @@
 
 =============================================
 
+[2019-01-07 22:34:41] Текст ошибки: Страница не найдена
+ Файл: C:\OSPanel\domains\ishop\vendor\ishop\core\Router.php
+ Строка: 44
+
+=============================================
+
+[2019-01-07 23:07:36] Текст ошибки: Контроллер app\controllers\adminMainController не найден
+ Файл: C:\OSPanel\domains\ishop\vendor\ishop\core\Router.php
+ Строка: 42
+
+=============================================
+
+[2019-01-07 23:07:42] Текст ошибки: Контроллер app\controllers\adminSwdgsdgController не найден
+ Файл: C:\OSPanel\domains\ishop\vendor\ishop\core\Router.php
+ Строка: 42
+
+=============================================
+

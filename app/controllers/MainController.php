@@ -8,10 +8,13 @@
 
 namespace app\controllers;
 
-
-class MainController
+class MainController extends AppController
 {
     public function indexAction() {
-        echo __METHOD__;
+        $this->setMeta('test', 'test desc', 'test,key,words');
+        $name = 'John';
+        $age = 30;
+        $names = ['Vasya', 'Petya'];
+        $this->set(compact('name', 'age', 'names'));
     }
 }
