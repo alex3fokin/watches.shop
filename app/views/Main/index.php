@@ -10,3 +10,7 @@
         <b>Name: </b> <i><?= $first_name; ?></i>
     </p>
 <?php endforeach; ?>
+
+<?php foreach($posts as $post): ?>
+    <h3><?= $post->title ?></h3>
+<?php endforeach; ?>
